@@ -21,18 +21,6 @@
     height: 60px;
 }
 
-
-#header-logo {
-    color: #F9FAF8;
-    font-size: 24px;
-    font-weight: 900;
-}
-div a {
-    color: #E5E7EB;
-    text-decoration: none;
-    font-size: 24px;
-}
-
 .header-links {
     display: flex;
     align-items: center;
@@ -67,6 +55,17 @@ div a {
     justify-content: flex-start;
     padding: 100px 290px 100px 0px;
     flex: 1 1 0px;
+}
+
+#header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+div a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 24px;
 }
 
 img {
