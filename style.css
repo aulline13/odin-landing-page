@@ -22,7 +22,11 @@
 }
 
 
-#header-logo,
+#header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
 div a {
     color: #E5E7EB;
     text-decoration: none;
