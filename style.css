@@ -34,7 +34,8 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    gap: 100px;
+    gap: 50px;
+    padding: 100px 0px;
 }
 
 .main-1-left {
@@ -45,16 +46,14 @@
     justify-content: space-between;
     gap: 10px;
     height: auto;
-    flex: 1 1 0px;
-    padding: 100px 0px 100px 290px;
+    max-width: 450px;
 }
 
 .main-1-right {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 100px 290px 100px 0px;
-    flex: 1 1 0px;
+    max-width: 450px;
 }
 
 .main-2 {
