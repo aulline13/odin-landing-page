@@ -125,6 +125,29 @@
     text-align: right;
 }
 
+.main-4 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    padding: 100px;
+}
+
+.main-4 .blue-container {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 900px;
+    padding: 50px;
+    border-radius: 10px;
+    gap: 100px;
+}
+
 #header-logo {
     color: #F9FAF8;
     font-size: 24px;
@@ -167,3 +190,14 @@ button {
     border: #3882F6 5px solid;
     border-radius: 10px;
 }
+
+.main-4 button {
+    border: white 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-4 .call-to-action {
+    font-weight: 700;
+}
+
